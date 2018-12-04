@@ -1,6 +1,7 @@
 colorscheme Monokai
 set nolist
-set noexpandtab
+" set noexpandtab
+hi SpellBad ctermfg=red ctermbg=NONE guifg=red
 
 autocmd BufNewFile *.cpp,*.[ch],*.sh,*.java exec ":call SetTitle()"
 
