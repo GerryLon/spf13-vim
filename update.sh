@@ -7,4 +7,5 @@
 #!/bin/bash
 
 git pull
-vim +BundleInstall! +BundleClean +q
+# vim +BundleInstall! +BundleClean +q
+vim +PluginUpdate +qall
